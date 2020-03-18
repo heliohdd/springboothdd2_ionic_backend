@@ -9,10 +9,10 @@
 		<version>2.2.3.BUILD-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.heliohdd.cursomc</groupId>
-	<artifactId>cursomc</artifactId>
+	<groupId>com.heliohdd.springboothdd2_ionic_backend</groupId>
+	<artifactId>springboothdd2_ionic_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cursomc</name>
+	<name>springboothdd2_ionic_backend</name>
 	<description>Estudo de caso em Java para Modelagem Conceitual com UML</description>
 
 	<properties>
