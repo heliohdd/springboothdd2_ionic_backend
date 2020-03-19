@@ -2,9 +2,11 @@ package com.heliohdd.springboothdd2_ionic_backend.domain;
 
 import javax.persistence.Entity;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.heliohdd.springboothdd2_ionic_backend.domain.enums.EstadoPagamento;
 
 @Entity
+@JsonTypeName("pagamentoComCartao")
 public class PagamentoComCartao extends Pagamento {
 	private static final long serialVersionUID = 1L;
 
