@@ -11,7 +11,7 @@ import javax.persistence.MapsId;
 import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.EstadoPagamento;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.EstadoPagamento;
 
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)

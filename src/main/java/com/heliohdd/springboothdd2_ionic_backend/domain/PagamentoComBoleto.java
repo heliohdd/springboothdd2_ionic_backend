@@ -5,7 +5,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.EstadoPagamento;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.EstadoPagamento;
 
 @Entity
 public class PagamentoComBoleto extends Pagamento {

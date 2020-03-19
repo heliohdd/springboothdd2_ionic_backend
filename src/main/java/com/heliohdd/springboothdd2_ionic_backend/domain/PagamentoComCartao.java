@@ -2,7 +2,7 @@ package com.heliohdd.springboothdd2_ionic_backend.domain;
 
 import javax.persistence.Entity;
 
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.EstadoPagamento;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.EstadoPagamento;
 
 @Entity
 public class PagamentoComCartao extends Pagamento {

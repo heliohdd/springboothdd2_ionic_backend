@@ -15,7 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.TipoCliente;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.TipoCliente;
 
 @Entity
 public class Cliente implements Serializable {

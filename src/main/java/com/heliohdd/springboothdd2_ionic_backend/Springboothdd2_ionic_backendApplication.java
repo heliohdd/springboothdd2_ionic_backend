@@ -19,6 +19,8 @@ import com.heliohdd.springboothdd2_ionic_backend.domain.PagamentoComBoleto;
 import com.heliohdd.springboothdd2_ionic_backend.domain.PagamentoComCartao;
 import com.heliohdd.springboothdd2_ionic_backend.domain.Pedido;
 import com.heliohdd.springboothdd2_ionic_backend.domain.Produto;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.EstadoPagamento;
+import com.heliohdd.springboothdd2_ionic_backend.domain.enums.TipoCliente;
 import com.heliohdd.springboothdd2_ionic_backend.repositories.CategoriaRepository;
 import com.heliohdd.springboothdd2_ionic_backend.repositories.CidadeRepository;
 import com.heliohdd.springboothdd2_ionic_backend.repositories.ClienteRepository;
@@ -28,8 +30,6 @@ import com.heliohdd.springboothdd2_ionic_backend.repositories.ItemPedidoReposito
 import com.heliohdd.springboothdd2_ionic_backend.repositories.PagamentoRepository;
 import com.heliohdd.springboothdd2_ionic_backend.repositories.PedidoRepository;
 import com.heliohdd.springboothdd2_ionic_backend.repositories.ProdutoRepository;
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.EstadoPagamento;
-import com.heliohdd.springboothdd2_ionic_backend.repositories.enums.TipoCliente;
 
 @SpringBootApplication
 public class Springboothdd2_ionic_backendApplication implements CommandLineRunner {
