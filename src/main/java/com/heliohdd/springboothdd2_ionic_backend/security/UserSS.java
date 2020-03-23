@@ -11,7 +11,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import com.heliohdd.springboothdd2_ionic_backend.domain.enums.Perfil;
 
 public class UserSS implements UserDetails {
-
 	private static final long serialVersionUID = 1L;
 
 	private Integer id;
@@ -68,5 +67,9 @@ public class UserSS implements UserDetails {
 	@Override
 	public boolean isEnabled() {
 		return true;
+	}
+
+	public boolean hasRole(Perfil perfil) {
+		return getAuthorities().contains(new SimpleGrantedAuthority(perfil.getDescricao()));
 	}
 }
