@@ -10,15 +10,11 @@ import com.heliohdd.springboothdd2_ionic_backend.services.S3Service;
 @SpringBootApplication
 public class Springboothdd2_ionic_backendApplication implements CommandLineRunner {
 
-	@Autowired
-	private S3Service s3Service;
-
 	public static void main(String[] args) {
 		SpringApplication.run(Springboothdd2_ionic_backendApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		s3Service.uploadFile("C:\\temp\\fotos\\ana.jpg");
 	}
 }
