@@ -13,9 +13,7 @@ import com.heliohdd.springboothdd2_ionic_backend.security.UserSS;
 import com.heliohdd.springboothdd2_ionic_backend.services.UserService;
 
 @RestController
-
 @RequestMapping(value = "/auth")
-
 public class AuthResource {
 
 	@Autowired
@@ -26,6 +24,7 @@ public class AuthResource {
 		UserSS user = UserService.authenticated();
 		String token = jwtUtil.generateToken(user.getUsername());
 		response.addHeader("Authorization", "Bearer " + token);
+		response.addHeader("access-control-expose-headers", "Authorization");
 		return ResponseEntity.noContent().build();
 	}
 }
